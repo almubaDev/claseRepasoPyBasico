@@ -1,5 +1,56 @@
 #Diccionarios, creacion, llave, valor, reasignacion, Comprehension Dict
 
+
+my_dict2 = {
+    'nombre' : 'Alan',
+    'correo' : 'alan@example.com', 
+    'edad' : 35,
+    'Altura': 1.69,
+    'es_chileno': True,
+    'colores_favoritos': ['Zima blue', 'Azul', 'Blanco'],
+    'conocimientos_lenguajes': {
+        'Python': 5,
+        'Java' : 2,
+        'otros_lenguajes' : ['Js', 'HTML']
+    }
+}
+
+print(my_dict2['conocimientos_lenguajes']['otros_lenguajes'][0])
+print(my_dict2['conocimientos_lenguajes']['Python'])
+print(my_dict2['nombre'])
+print(my_dict2['colores_favoritos'])
+
+#Crear desde cero
+print('#######################')
+my_dict = {}
+my_dict['nombre'] = 'Johanna'
+my_dict['colores'] = ['Negro','Morado']
+
+
+print(my_dict['colores'])
+my_dict['colores'][0] = 'Rojo'
+my_dict['colores'].insert(0, 'Amarillo')
+print(my_dict['colores'])
+
+print(my_dict['nombre'])
+my_dict['nombre'] = 'Daniela'
+print(my_dict['nombre'])
+print(my_dict)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #* clear(): Elimina todos los elementos del diccionario.
 
 diccionario = {'a': 1, 'b': 2, 'c': 3}
